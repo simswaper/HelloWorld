@@ -46,3 +46,5 @@ Hello, thank you for wanting to learn about one sentence in all programming lang
 - **VHDL**
 - **Verilog**
 
+# Assembly
+soon.
