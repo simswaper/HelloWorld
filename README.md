@@ -4,7 +4,7 @@ Hello, thank you for wanting to learn about one sentence in all programming lang
 
 # List of Programming Languages from A to Z
 
-- **Assembly**
+- **Assembly (credit to [Pablo Corbalán](https://gist.github.com/pablocorbalann))**
 - **Bash**
 - **C**
 - **C++**
