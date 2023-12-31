@@ -66,3 +66,9 @@ This is a simple "Hello World" program written in Assembly language using NASM.
    ```bash
    curl -o main.asm https://raw.githubusercontent.com/simswaper/HelloWorld/main/Assembly/main.asm
    ```
+
+# Compile and run the project
+nasm -f elf32 -o main.o main.asm
+ld -m elf_i386 -o main main.o
+./hello
+./hello
