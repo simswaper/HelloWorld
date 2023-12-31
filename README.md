@@ -47,4 +47,22 @@ Hello, thank you for wanting to learn about one sentence in all programming lang
 - **Verilog**
 
 # Assembly
-soon.
+This is a simple "Hello World" program written in Assembly language using NASM.
+
+## Installation
+
+1. **Install NASM:**
+   - On Debian/Ubuntu:
+     ```bash
+     sudo apt-get update
+     sudo apt-get install nasm
+     ```
+   - On Fedora:
+     ```bash
+     sudo dnf install nasm
+     ```
+
+2. **Download a file:**
+   ```bash
+   curl -o main.asm https://raw.githubusercontent.com/simswaper/HelloWorld/main/Assembly/main.asm
+   ```
