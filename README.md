@@ -68,7 +68,19 @@ This is a simple "Hello World" program written in Assembly language using NASM.
    ```
 
 # Compile and run the project
+   ```bash
 nasm -f elf32 -o main.o main.asm
 ld -m elf_i386 -o main main.o
 ./hello
 ./hello
+   ```
+
+# Bash
+This is a simple "Hello World" script written in Bash.
+
+## Execution
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/bash-hello-world.git
+   cd bash-hello-world
