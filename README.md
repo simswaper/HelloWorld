@@ -58,20 +58,19 @@ This is a simple "Hello World" program written in Assembly language using NASM.
      sudo apt-get install nasm
      ```
    - On Fedora:
-     ```bash
+     ```assembly
      sudo dnf install nasm
      ```
 
 2. **Download a file:**
-   ```bash
+   ```assembly
    curl -o main.asm https://raw.githubusercontent.com/simswaper/HelloWorld/main/Assembly/main.asm
    ```
 
 # Compile and run the project
-   ```bash
+   ```assembly
 nasm -f elf32 -o main.o main.asm
 ld -m elf_i386 -o main main.o
-./hello
 ./hello
    ```
 
